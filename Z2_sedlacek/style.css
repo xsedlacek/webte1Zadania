@@ -1,0 +1,132 @@
+html{
+    max-width: 1920;
+    margin: 0 auto;
+}
+footer{
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    background-color: #333333;
+    text-align: center;
+    color: white;
+  }
+header{
+    background-color: #333333;
+    color: white;
+    font-family: Verdana, sans-serif;
+
+}
+h1{
+    text-align: center;
+}
+.picture{
+    position: relative;
+    max-width: 100%;
+    object-position: center;
+    
+}
+.thor{
+    width: 6%;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+}
+.hulk{
+    width: 6%;
+    position: absolute;
+    left: 55%;
+    top: 0%;
+}
+.hawk{
+    width: 6%;
+    position: absolute;
+    left: 15%;
+    top: 45%;
+}
+.iron{
+    width: 6%;
+    position: absolute;
+    left: 55%;
+    top: 22%;
+}
+.cpt{
+    width: 6%;
+    position: absolute;
+    left: 40%;
+    top:22%;
+}
+.thor:hover {
+    cursor: pointer;
+}
+.thor:hover + .text{
+    visibility: visible;
+}
+
+.hulk:hover {
+    cursor: pointer;
+}
+.hulk:hover + .text{
+    visibility: visible;
+    top: 3%;
+    left: 60%;
+}
+
+.iron:hover {
+    cursor: pointer;
+}
+.iron:hover + .text{
+    visibility: visible;
+    top: 40%;
+    left: 55%;
+}
+
+.cpt:hover {
+    cursor: pointer;
+}
+.cpt:hover + .text{
+    visibility: visible;
+    top: 40%;
+    left: 35%;
+}
+
+.hawk:hover {
+    cursor: pointer;
+}
+.hawk:hover + .text{
+    visibility: visible;
+    top: 55%;
+    left: 15%;
+}
+.container {
+    margin-left: 15%;
+    margin-right: 15%;
+    position: absolute;
+    max-width: 1920px;
+    max-height: 1080px;
+}
+.image{
+    object-position: center;
+    width: 10%;
+    height: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.text{
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 6px;
+    width:fit-content;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    background-color: lightgray;
+    color: black;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    opacity: 1;
+    visibility: hidden;
+    
+}
+

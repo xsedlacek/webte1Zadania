@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Zadanie 5</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    
+    <input
+      id="pac-input"
+      class="controls"
+      type="text"
+      placeholder="Search Box"
+    />
+    <div id="floating-panel">
+      <b>Ako cestuješ? </b>
+      <select id="mode">
+        <option value="DRIVING">Autom</option>
+        <option value="WALKING">Pešo</option>
+      </select>
+    </div>
+    <div id="map"></div>
+    <iframe 
+    src="https://www.google.com/maps/embed?pb=!4v1636039177171!6m8!1m7!1sxjo8EN0w3bAtp1fcXeMC4w!2m2!1d48.15158345080121!2d17.07244116526267!3f63.0215595701746!4f3.5820375245345133!5f0.7820865974627469" 
+    width="350" height="350" style="border:0;" allowfullscreen="" ></iframe>    
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDyhdnILk7gWRUAMY-dTjGoM68UpB2yONU&callback=initMap&libraries=places&v=weekly"
+      async
+    ></script>
+  </body>
+</html>

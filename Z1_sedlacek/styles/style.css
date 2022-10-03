@@ -1,0 +1,140 @@
+html{
+    max-width: 1920;
+    margin: 0 auto;
+}
+
+
+h1{
+    font-family: Verdana, sans-serif;
+}
+
+footer{
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+  background-color: #333333;
+  text-align: center;
+  color: white;
+}
+/*rozvrh*/
+h2{
+  font-family: Verdana, sans-serif;
+  text-align: center;
+  font-size: 36;
+}
+
+.tabulka {
+    
+    float: left;
+    border: 1px solid black;
+    margin-left: 250px;
+    text-align: center;
+
+  }
+th{
+  height: 50px;
+  padding: 5px;
+  border: 1px solid black;
+}
+td{
+  height: 50px;
+  padding: 5px;
+  border: 1px solid black;
+}
+.predn{
+  background-color: lightgreen;
+
+}
+.cvicenie{
+  background-color: lightblue;
+}
+.tk{
+  background-color: pink;
+}
+.row{
+  display: flex;
+}
+.column {
+    float: left;
+    width: 50%;
+    background-color: lightgray;
+    flex: 100%;
+  }
+
+.column1{
+  float: left;
+  width: 50%;
+  background-color: darkgrey;
+  flex: 100%;
+}
+
+.legend{
+    list-style-type: none;
+    display: table-column;
+    float: right;
+    
+    margin-right: 700px;
+    margin-top: 150px;
+    font-size: larger;
+    
+    }
+  
+.legend span { border: 1px solid #ccc; float: left; width: 12px; height: 12px; margin: 2px; }
+.legend .prednaska{background:lightgreen;}
+.legend .cviko{background:lightblue;}
+.legend .tk5{background:pink;}
+
+/*omne*/
+h3{
+  font-family: Verdana, sans-serif;
+  text-align: left;
+}
+.container{
+    width: 50%;
+}
+
+img{
+    float: left;
+    padding-right: 25px;
+}
+.text{
+    text-align: justify;
+}
+
+
+  .menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+  }
+  
+  .menu .prvok {
+    float: left;
+  }
+  
+  .menu .prvok a {
+    font-size: larger;
+    font-family: Verdana, sans-serif;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  .menu .prvok  a:hover {
+    background-color: #111111;
+  }
+
+aside {
+  color: blue;
+  width: 30%;
+  padding-left: 8px;
+  margin-left: 5px;
+  margin-right: 10px;
+  float: right;
+  font-style: italic;
+  font-size: xx-large;
+}

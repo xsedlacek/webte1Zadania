@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang=sk>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Zadanie 3</title>
+</head>
+
+<body>
+    <header>
+        <h1>Formulár</h1>
+    </header>
+    <form action="https://iolab.sk/form2mail/form2mail.php" method="post" enctype="multipart/form-data">
+        <input hidden name="935dd705b764ab5acfc72f50a1cd842d" value="1">
+        <input type="hidden" name="Peter Sedláček">
+        <input type="hidden" name="apikey" value="935dd705b764ab5acfc72f50a1cd842d">
+        <input type="hidden" name="from" value="xsedlacekp@stuba.sk">
+        <input type="hidden" name="to" value="feistu03@gmail.com">
+        <input type="hidden" name="subject" value="Peter Sedláček">
+        <input type="hidden" name="redirectOk" value="https://webte1.fei.stuba.sk/~xsedlacekp/">
+        <input type="hidden" name="redirectFalse" value="">
+
+        <fieldset>
+            <h1>Osobné údaje</h1>
+            <span class="red">*</span>Meno: <br>
+            <input autocomplete="off" name="Meno" type="text" id="meno" class="textfield" pattern="[A-Za-z]{1,}"
+                required oninvalid="this.setCustomValidity('Používaj iba znaky')"><br>
+            <span class="red">*</span>Prezvisko: <br>
+            <input autocomplete="off" name="Priezvisko" type="text" id="priezvisko" class="textfield"
+                pattern="[A-Za-z]{1,}" required oninvalid="this.setCustomValidity('Používaj iba znaky')" > <br>
+            <span class="red">*</span>Vek:<br>
+            <input autocomplete="off" name="Vek" type="text" id="vek" class="textfield" pattern="[1-9]{1,3}" required oninvalid="this.setCustomValidity('Používaj iba čisla')">
+            <br>
+            <span class="red">*</span>Dátum narodenia:<br>
+            <input autocomplete="off" name="date" type="date" id="date" class="textfield" required><br>
+            <span class="red">*</span>Email:<br> <input type="email" name="email" id="email" pattern ="/^.{3,}@.*\..{2,4}/g" required oninvalid="this.setCustomValidity('characters@characters.com')">
+
+
+        </fieldset>
+
+        <fieldset>
+            <p>Aký webový prehliadač používaš?</p>
+            <input type="checkbox" name="mozila" id="firefox"><label for="firefox">Firefox</label><br>
+            <input type="checkbox" name="chrome" id="chrome"><label for="chrome">Google Chrome</label><br>
+            <input type="checkbox" name="opera" id="opera"><label for="opera">Opera</label><br>
+            <input type="checkbox" name="edge" id="edge"><label for="edge">Microsoft Edge</label><br>
+            <input type="checkbox" name="ine" id="ine" onchange="otherChoice()"><label for="ine">Iné</label><br>
+            <br>
+            <textarea name="iny_prehliadac" style="display: none" id="txt1" cols="30" rows="10"></textarea>
+
+            <p>Aký mobil používaš?
+                <select name="OS" id="sel1" onchange="giveSelection(this.value)">
+                    <option value="none" selected disabled hidden>neviem</option>
+                    <option value="ios">iOS</option>
+                    <option value="android">Android</option>
+                </select>
+                <select name="Znacka" id="sel2" onchange="giveSelection2(this.value)">
+                    <option data-option="android" value="none">neviem</option>
+                    <option data-option="android" value="samsung">Samsung</option>
+                    <option data-option="android" value="xiaomi">Xiaomi</option>
+                    <option data-option="ios" value="none">neviem</option>
+                    <option data-option="ios" value="iphone">iPhone</option>
+                </select>
+                <select name="Model" id="sel3">
+                    <option data-option="samsung">S20</option>
+                    <option data-option="samsung">S21</option>
+                    <option data-option="samsung">Note 9</option>
+                    <option data-option="iphone">X</option>
+                    <option data-option="iphone">11</option>
+                    <option data-option="iphone">12</option>
+                    <option data-option="xiaomi">Redmi 8</option>
+                    <option data-option="xiaomi">Redmi 9</option>
+                    <option data-option="xiaomi">Redmi 10</option>
+                </select>
+            </p>
+        </fieldset>
+        <fieldset>
+            <h1>Doplňujúce Informácie</h1>
+            <textarea name="info" id="txt2" cols="30" rows="10"></textarea>
+        </fieldset>
+        <fieldset>
+            <p>Čo viac preferuješ?</p>
+            <div class="prepinac1" onchange="show()">
+                <label for="option1">Počítač</label>
+                <input type="radio" name="pc_konzola" id="option1">
+                <label for="option2">Konzola</label>
+                <input type="radio" name="pc_konzola" id="option2">
+            </div>
+            <br>
+            <br>
+            <div id="prepinac2" style="display: none">
+                <label for="4">Notebook</label>
+                <input type="radio" name="ntb_pc" id="4">
+                <label for="5">Desktop</label>
+                <input type="radio" name="ntb_pc" id="5">
+            </div>
+
+            <div id="prepinac3" style="display: none">
+                <label for="7">Xbox</label>
+                <input type="radio" name="xbox_ps" id="7">
+                <label for="8">PS</label>
+                <input type="radio" name="xbox_ps" id="8">
+                <label for="9">iné</label>
+                <input type="radio" name="xbox_ps" id="9">
+            </div>
+        </fieldset>
+
+
+
+        <textarea style="display:none" name="hidden_textarea" cols="30" rows="1">Peter Sedláček</textarea>
+        <input type="submit" value="Odoslať">
+    </form>
+    <script src="script.js"></script>
+    <footer>
+        © 2021 Peter Sedláček
+    </footer>
+</body>
+
+</html>

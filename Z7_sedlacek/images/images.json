@@ -1,0 +1,35 @@
+{
+    "photos":
+    [
+      {
+        "src": "img1.jpg",
+        "title": "Machula 1",
+        "description": "Rieka delta machula"
+      },
+      {
+        "src": "img2.jpg",
+        "title": "Sceneria 2",
+        "description": "Krajina voda kopce"
+      },
+      {
+        "src": "img3.jpg",
+        "title": "Sceneria 3",
+        "description": "Palmy more vila"
+      },
+      {
+        "src": "img4.jpg",
+        "title": "Dedina v kopci 4",
+        "description": "Dedina stromy kopce"
+      },
+      {
+        "src": "img5.jpg",
+        "title": "Kvetina 5",
+        "description": "Kvety kvetina ruža ruže"
+      },
+      {
+        "src": "img6.jpg",
+        "title": "Anjeli 6",
+        "description": "Anjeli bohovia"
+      }    
+    ]
+  }

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <title>EasyQuiz</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#317EFB" />
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="manifest" href="manifest.json">
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+
+
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+  <link rel="apple-touch-icon" href="/ios/192.png">
+</head>
+
+<body>
+
+  <div class="wideBox">
+    <h1>EasyQuiz</h1>
+    <h2>Spoj veci čo patria k sebe</h2>
+  </div>
+
+  <div id="content" class="text-center">
+    <div class="row">
+      <div class="col">
+        <div id="cardPile"> </div>
+      </div>
+      <div class="col">
+        <div id="cardSlots"> </div>
+      </div>
+    </div>
+    
+    <div id="successMessage">
+      <h2>Congratulations!</h2>
+      <button onclick="init()">Next level</button>
+    </div>
+
+
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+html{
+    max-width: 1850px;
+    margin: 0 auto;
+}
+footer{
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    background-color: #333333;
+    text-align: center;
+    color: white;
+  }
+header{
+    background-color: #333333;
+    color: white;
+    font-family: Verdana, sans-serif;
+    text-align: center;
+}
+#ramik{
+    width: 15%;
+    min-width: 200px;
+}
+p{
+    text-align: center;
+}
+#ovladanie{
+    width: 15%;
+    min-width: 200px;
+}

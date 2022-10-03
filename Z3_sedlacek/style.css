@@ -1,0 +1,37 @@
+html{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+footer{
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    background-color: #333333;
+    text-align: center;
+    color: white;
+  }
+header{
+    background-color: #333333;
+    color: white;
+    font-family: Verdana, sans-serif;
+
+}
+h1{
+    text-align: center;
+    font-size: large;
+}
+@media (min-width:768px){
+    form{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
+.red{
+    color: red;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+}
+

@@ -1,0 +1,111 @@
+{
+
+    "level1": 
+    [
+        {
+            "problem": "Slovensko",
+            "solution": "Bratislava"
+        },
+        {
+            "problem": "Poľsko",
+            "solution": "Waršava"
+        },
+        {
+            "problem": "Rusko",
+            "solution": "Moskva"
+        },
+        {
+            "problem": "Nemecko",
+            "solution": "Berlin"
+        },
+        {
+            "problem": "USA",
+            "solution": "Washington"
+        },
+
+
+        {
+            "problem": "2*4",
+            "solution": "8"
+        },
+        {
+            "problem": "5*8",
+            "solution": "40"
+        },
+        {
+            "problem": "sqrt(100)",
+            "solution": "10"
+        },
+        {
+            "problem": "2*8-15",
+            "solution": "1"
+        },
+        {
+            "problem": "20^2",
+            "solution": "400"
+        },
+
+        {
+            "problem": "Štvorec",
+            "solution": "4"
+        },
+        {
+            "problem": "Trojuholník",
+            "solution": "3"
+        },
+        {
+            "problem": "Šesťuholník",
+            "solution": "6"
+        },
+        {
+            "problem": "Hviezda",
+            "solution": "5"
+        },
+        {
+            "problem": "Kruh",
+            "solution": "0"
+        },
+
+        {
+            "problem": "Azia",
+            "solution": "Čína"
+        },
+        {
+            "problem": "Európa",
+            "solution": "Španielsko"
+        },
+        {
+            "problem": "Južná Amerika",
+            "solution": "Kolumbia"
+        },
+        {
+            "problem": "Afrika",
+            "solution": "Somálsko"
+        },
+        {
+            "problem": "Severná Amerika",
+            "solution": "Kanada"
+        },
+
+        {
+            "problem": "India",
+            "solution": "Taj Mahal"
+        },
+        {
+            "problem": "Peru",
+            "solution": "Machu Picchu"
+        },
+        {
+            "problem": "Taliansko",
+            "solution": "Colosseum"
+        },
+        {
+            "problem": "Anglicko",
+            "solution": "Tower Clock"
+        },
+        {
+            "problem": "Francúzsko",
+            "solution": "Eifelová veža"
+        }
+    ]
+}
